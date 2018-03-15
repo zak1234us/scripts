@@ -1,0 +1,9 @@
+# Check for palindrome
+
+def palinDrome():
+    wordCheck = input("Enter word to check for palindrome? ")
+    if wordCheck.lower() == wordCheck[::-1].lower():
+        print(wordCheck, 'yes an palindrome')
+    else:
+        print(wordCheck, 'is not a palindrome', wordCheck[::-1])
+palinDrome()
